@@ -1,0 +1,104 @@
+
+
+ <div class="breadcrumb-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="page-title">
+                    <h2>create account</h2>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <nav aria-label="breadcrumb" class="theme-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">create account</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- breadcrumb End -->
+
+
+<!--section start-->
+<section class="register-page section-b-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>create account</h3>
+                <div class="theme-card">
+                    <form class="theme-form" #register="ngForm" (ngSubmit)="rigester()">
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="email">First Name</label>
+                                <input type="text" class="form-control" id="fname"
+                                 placeholder="First Name"required
+                                 name="FirstName"
+                                 [(ngModel)]="user.FirstName"
+                                 >
+                            </div>
+                            <div class="col-md-6">
+                                <label for="review">Last Name</label>
+                                <input type="text" class="form-control" id="lname" 
+                                placeholder="Last Name"
+                                required
+                                name="LastName"
+                                [(ngModel)]="user.LastName"
+                                >
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="email">email</label>
+                                <input type="text" class="form-control" id="email"
+                                 placeholder="Email" required
+                                 name="Email"
+                                 [(ngModel)]="user.Email"
+                                 >
+                            </div>
+                            <div class="col-md-6">
+                                <label for="review">Password</label>
+                                <input type="password" class="form-control" id="pass"
+                                    placeholder="Enter your password" required
+                                    name="Password"
+                                    [(ngModel)]="user.Password"
+                                >
+                            </div>
+                            <div class="col-md-6">
+                                <label for="review">Confirm Password</label>
+                                <input type="password" class="form-control" id="conpass"
+                                    placeholder="confirm password" required
+                                    name="ConfirmPassword"
+                                    [(ngModel)]="user.ConfirmPassword"
+                                >
+                            </div>
+                            <div class="col-md-6">
+                                <label for="review">City</label>
+                                <input type="text" class="form-control" id="city"
+                                    placeholder="Enter your city" required
+                                    name="City"
+                                    [(ngModel)]="user.City" >
+                            </div>
+                            <div class="col-md-6">
+                                <label for="review">Age</label>
+                                <input type="text" class="form-control" id="age"
+                                    placeholder="Enter your Age" required
+                                    name="Age"
+                                    [(ngModel)]="user.Age" >
+                            </div>
+
+                            <div  *ngIf="userManagerResponce" class="col-md-6 alert alert-success alert-dismissible fade show" role="alert">
+                                <h4>{{userManagerResponce.massege}} <br/></h4>
+                                <button type="button" class="btn btn-solid"  (click)="verfiyAccount()" >verify your account</button>
+                            </div>        
+                            <button type="submit"  class="btn btn-solid">create Account</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
