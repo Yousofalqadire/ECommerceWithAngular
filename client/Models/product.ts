@@ -19,7 +19,7 @@ export interface IProduct
     Brand:string;
     Details:string;
     Price:number;
-    Image:File;
+    Image:any;
     Sizes:string[];
 
 }

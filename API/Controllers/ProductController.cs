@@ -63,9 +63,10 @@ namespace API.Controllers
         [HttpPost("add-product")]
 
         public async Task<ActionResult<Product>> AddProduct([FromForm] ProductDto product)
+             
         {
             
-            var p = new Product();
+            var p = new Product();           
             var result = await image.AddPhotoAsync(product.Image);
             if(result.Error != null) return BadRequest(result.Error.Message);
              p.Name = product.Name;

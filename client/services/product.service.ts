@@ -42,8 +42,8 @@ export class ProductService {
      
   });
   let option = {headers:header}
-  console.log(option);
-    return this.http.post<Product>(this.baseUrl +"add-product",model,option);
+  
+    return this.http.post<Product>(this.baseUrl +"Product/add-product",model,option);
   }
 }
 

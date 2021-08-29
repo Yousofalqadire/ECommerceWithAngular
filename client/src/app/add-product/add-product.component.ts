@@ -20,7 +20,7 @@ export class AddProductComponent implements OnInit {
     Details: new FormControl('',[Validators.required,Validators.minLength(20)]),
     Price :new FormControl('',Validators.required),
     Photo: new FormControl('',Validators.required),
-    fileSource: new FormControl('', [Validators.required]),
+    Image: new FormControl('', [Validators.required]),
     Sizes: new FormArray([])
     
   });
@@ -52,27 +52,19 @@ export class AddProductComponent implements OnInit {
      if(event.target.files.length > 0)
      {
        const file =  event.target.files[0];
-       this.addProductForm.patchValue({fileSource :file});
+       this.addProductForm.patchValue({Image :file});
      }
   }
   addProduct()
   {
-    const product :IProduct = {
-   Brand : this.addProductForm.get('Brand').value,
-   Details:  this.addProductForm.get('Details').value,
-   Price : this.addProductForm.get('Price').value,
-   Name : this.addProductForm.get('Name').value,
-   Category: this.addProductForm.get('Category').value,
-   Image :  this.addProductForm.get('fileSource').value,
-   Sizes :  this.addProductForm.get('Sizes').value
-  }
+   
    const formData = new FormData();
    formData.append('Brand',this.addProductForm.get('Brand').value);
    formData.append('Details',this.addProductForm.get('Details').value);
    formData.append('Price',this.addProductForm.get('Price').value);
    formData.append('Name',this.addProductForm.get('Name').value);
    formData.append('Category',this.addProductForm.get('Category').value);
-   formData.append('Image',this.addProductForm.get('fileSource').value);
+   formData.append('Image',this.addProductForm.get('Image').value);
    formData.append('Sizes',this.addProductForm.get('Sizes').value)
     this.productService.addProduct(formData).subscribe(res=>{
       if(res)
@@ -82,6 +74,7 @@ export class AddProductComponent implements OnInit {
       }
 
     })
+    
    
   }
 }
