@@ -1,7 +1,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, ReplaySubject } from 'rxjs';
-import{IProduct, Product} from '../Models/product';
+import{ Product} from '../Models/product';
 import{map} from 'rxjs/operators';
 import { IUser } from 'Models/user';
 
@@ -44,6 +44,17 @@ export class ProductService {
   let option = {headers:header}
   
     return this.http.post<Product>(this.baseUrl +"Product/add-product",model,option);
+  }
+
+  deleteItem(id:number) :Observable<string>
+  {
+    let user:IUser = JSON.parse(localStorage.getItem('user'));
+    let  header = new HttpHeaders({
+      'Authorization':'Bearer '+user.token ,
+       
+    });
+    let option = {headers:header}
+    return this.http.delete<string>(this.baseUrl + "Product/"+id,option);
   }
 }
 

@@ -30,7 +30,7 @@ export class AdminComponent implements OnInit {
     this.adminService.getRoles().subscribe(res=>
       {
         this.roles = res;
-        console.log(this.roles);
+       
         
       })
 

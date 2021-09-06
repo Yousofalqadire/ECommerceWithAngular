@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
-import { IProduct } from 'Models/product';
+
 import { ToastrService } from 'ngx-toastr';
 import { ProductService } from 'services/product.service';
 import { ScriptService } from 'services/script.service';

@@ -7,6 +7,7 @@ import { ScriptService } from 'services/script.service';
 import{IUser} from '../../../Models/user'
 import{FormsModule, NgForm} from '@angular/forms'
 import { ToastrService } from 'ngx-toastr';
+import{NgxSpinnerModule, NgxSpinnerService} from 'ngx-spinner';
 
 declare var $ : any;
 @Component({
@@ -32,7 +33,8 @@ export class LoginPageComponent implements OnInit {
   };
   constructor(private scriptService: ScriptService,
     private accountService: AccountService,
-    private router:Router,private toastr:ToastrService) { }
+    private router:Router,private toastr:ToastrService,
+    private spinner: NgxSpinnerService) { }
 
   ngOnInit(): void {
     
@@ -45,9 +47,13 @@ export class LoginPageComponent implements OnInit {
    login()
   {    
     this.accountService.login(this._user).subscribe(response=>
-     {         
+     {    this.spinner.show();
+        setTimeout(()=>{
+          this.spinner.hide();
           this.toastr.success("welcom to our store !");
           this.router.navigateByUrl('/home')
+        },3000)     
+          
      },error=>{this.toastr.error(error.error)})  
  
   }

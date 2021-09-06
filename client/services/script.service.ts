@@ -37,16 +37,23 @@ export class ScriptService {
     script.defer=true;
     body.appendChild(script);
 
+  
+
     script = document.createElement('script');
-    script.src = "../../assets/js/dashboard/default.js";
+    script.src = "../assets/js/sidebar-menu.js";
+    script.async=true;
+    script.defer=true;
+    body.appendChild(script);
+    script = document.createElement('script');
+    script.src = "../assets/js/dashbord/default.js";
     script.async=true;
     script.defer=true;
     body.appendChild(script);
 
     script = document.createElement('script');
-    script.src = "../../assets/js/sidebar-menu.js";
-    script.async=true;
-    script.defer=true;
-    body.appendChild(script);
+      script.src = '../assets/js/slick.js';
+      script.async=true;
+      script.defer=true;
+      body.appendChild(script);
   }
 }

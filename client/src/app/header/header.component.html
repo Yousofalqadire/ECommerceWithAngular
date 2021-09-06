@@ -1,13 +1,17 @@
+
 <header class="header-tools">
     <div class="mobile-fix-option"></div>
     <div class="top-header">
         <div class="container">
+          
             <div class="row">
                 <div class="col-lg-6">
                     <div class="header-contact">
                         <ul>
                             <li>Welcome to Our store alsuwedi</li>
-                            <li><i class="fa fa-phone" aria-hidden="true"></i>Call Us: 077 - 590 - 4800</li>
+                            <li><i class="fa fa-phone" aria-hidden="true">                               
+                            </i>Call Us: 077 - 590 - 4800</li>
+                            
                         </ul>
                     </div>
                     
@@ -534,8 +538,8 @@
                                                 <li><a href="faq.html">FAQ</a></li>
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a routerLink="/admin">Admin</a>
+                                        <li *appHasRole='["Admin"]'>
+                                            <a  routerLink="/admin">Admin</a>
                                             <ul>
                                                 <li><a href="blog-page.html">left sidebar</a></li>
                                                 <li><a href="blog(right-sidebar).html">right sidebar</a></li>

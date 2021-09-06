@@ -38,6 +38,7 @@ export class AccountService {
           Array.isArray(_role)? user.roles = _role: user.roles.push(_role);
           localStorage.setItem('user', JSON.stringify(user));
           this.currentUserSource.next(user);
+          console.log(user);
         }         
       })
     )

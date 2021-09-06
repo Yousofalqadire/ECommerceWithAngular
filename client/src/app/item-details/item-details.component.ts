@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { CartItem } from 'Models/cartItem';
 import { Product } from 'Models/product';
 import { IUser } from 'Models/user';
+import { NgxSpinnerService } from 'ngx-spinner';
 import { ToastrService } from 'ngx-toastr';
 import { ProductService } from 'services/product.service';
 import { ScriptService } from 'services/script.service';
@@ -27,7 +28,8 @@ cartItems:Array<CartItem>;
              private scriptService:ScriptService,
              private cartService:ShoppingCartService,
              private toastr:ToastrService,
-             private router:Router) { }
+             private router:Router,
+             private spinner:NgxSpinnerService) { }
 
              
   ngOnInit(): void {
@@ -61,10 +63,13 @@ cartItems:Array<CartItem>;
       ProductPhoto:this.product.photo.url,
     ProductPric:this.product.price,Quantity:1,SelectedSize:this.size,User:user.userName}
    this.cartService.addProduct(cItem).subscribe(res=>{
-     console.log(res);
-    
+    this.spinner.show();
+    setTimeout(()=>{
+      this.spinner.hide();
+     this.toastr.success("item added to your cart");
+    },3000);
    })
-   this.toastr.success("item added to your cart");
+  
   }
 
 }

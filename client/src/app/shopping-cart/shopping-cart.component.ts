@@ -59,6 +59,7 @@ export class ShoppingCartComponent implements OnInit  {
 
  removeItem(id:number)
  {
+   
    this.itemId= id;
    this.shoppingCart.removeItem(this.itemId).subscribe(response=>{
     let itemid :number = response;
@@ -69,7 +70,7 @@ export class ShoppingCartComponent implements OnInit  {
        this.myItems.splice(i,1);
        return;
     }
-     console.log(this.myItems);
+     
    })
  }
 

@@ -11,6 +11,7 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import{AuthGuard} from './_guards/auth.guard';
 import{AdminGuard} from './_guards/admin.guard';
 import { AddProductComponent } from './add-product/add-product.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 
 const routes: Routes = [
@@ -35,7 +36,8 @@ const routes: Routes = [
   {path:"admin", 
    children:[
      {path:"roles",component:RolesComponent},
-     {path:"addProduct", component:AddProductComponent}
+     {path:"addProduct", component:AddProductComponent},
+     {path:"productList", component:ProductListComponent}
    ]
   }
 

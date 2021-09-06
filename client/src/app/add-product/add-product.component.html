@@ -58,15 +58,15 @@
         </div>
 
         <div class="mb-3">
-          <label for="Price" class="form-label">Price Name</label>
+          <label for="Price" class="form-label">Price </label>
           <input type="text" class="form-control" 
           formControlName="Price"
           id="price" 
            
           >
           <div *ngIf="f.Price.touched && f.Price.invalid" class="alert alert-danger">
-            <div *ngIf="f.Price.errors.required">Name is required.</div>
-            <div *ngIf="f.Price.errors.minlength">Name should be 3 character or more</div>
+            <div *ngIf="f.Price.errors.required">Price is required.</div>
+            
         </div>
         </div>
 
@@ -90,6 +90,7 @@
             <div class="mb-3" *ngFor="let size of formSizes;let i = index">
               <input type="text" class="form-control" [formControlName]="i">
             </div>
+            <div *ngIf="f.Sizes.touched && f.Sizes.invalid"  class="alert alert-danger"></div>
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>

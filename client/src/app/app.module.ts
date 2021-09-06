@@ -1,5 +1,5 @@
 import { BrowserModule} from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import{ BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -27,6 +27,9 @@ import { RolesComponent } from './roles/roles.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { AdminHeaderComponent } from './admin-header/admin-header.component';
 import { AdminSideBarComponent } from './admin-side-bar/admin-side-bar.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { HasRoleDirective } from './_directives/has-role.directive';
+import { NgxSpinnerModule } from "ngx-spinner";
 
 @NgModule({
   declarations: [
@@ -44,7 +47,9 @@ import { AdminSideBarComponent } from './admin-side-bar/admin-side-bar.component
     RolesComponent,
     AddProductComponent,
     AdminHeaderComponent,
-    AdminSideBarComponent
+    AdminSideBarComponent,
+    ProductListComponent,
+    HasRoleDirective
   ],
   imports: [
     BrowserModule,
@@ -56,9 +61,11 @@ import { AdminSideBarComponent } from './admin-side-bar/admin-side-bar.component
       positionClass:'toast-bottom-right'
     }),
     BrowserAnimationsModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    NgxSpinnerModule
      
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [
     AccountService,
     ScriptService,

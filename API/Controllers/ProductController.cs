@@ -91,10 +91,10 @@ namespace API.Controllers
             await _product.AddProductAsync(p);
             return Ok(p);
         }
-       
+       [Authorize(Roles="Admin")]
        [HttpDelete("{id:int}")]
 
-       public async Task<ActionResult> DeleteProduct(int id)
+       public async Task<ActionResult> DeleteProduct([FromRoute]int id)
        {
            var product = await _product.GetProductByIdAsync(id);
            var photo = product.Photo;

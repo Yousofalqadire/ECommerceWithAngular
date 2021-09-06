@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Product } from 'Models/product';
 import { IUser } from 'Models/user';
-import { Observable } from 'rxjs';
+import {NgxSpinnerModule, NgxSpinnerService} from 'ngx-spinner';
 
 import { ProductService } from 'services/product.service';
 import { ScriptService } from 'services/script.service';
@@ -19,10 +19,13 @@ export class HomePageComponent implements OnInit {
   
   constructor(private scriptService : ScriptService,
     private productService:ProductService,
-    private router:Router) { }
+    private router:Router,
+    private spinner:NgxSpinnerService) { }
   
   ngOnInit(): void {
   
+    // this.spinner.show();
+    // setTimeout(()=>{this.spinner.hide},3000);
    this.getProducts();
    this.setCategory();
    this.getAttribute(this.attr);
@@ -47,16 +50,17 @@ export class HomePageComponent implements OnInit {
 
   getAttribute(el:any)
   {
+    
     this.attr= el;
     this.id = this.attr.getAttribute('item-id');
     this.productService.getProduct(this.id).subscribe(response=>
       {
         this.product = response;
         let user:IUser = JSON.parse(localStorage.getItem('user'));
-        console.log(this.product);
+        
         
       })
-      console.log(this.product);
+     
   }
    
 

@@ -12,5 +12,6 @@ namespace API.Models
         public string Details { get; set; }
         public Photo Photo { get; set; }
         public List<Size> Sizes { get; set; }
+        public bool PupulerItems { get; set; }
     }
 }

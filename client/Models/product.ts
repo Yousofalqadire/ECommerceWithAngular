@@ -9,17 +9,8 @@ export interface Product
     price:    number;
     details:  string;
     photo:    Photo;
-    sizes:Array<Size>
+    sizes:Array<Size>;
+    pupulerItems:boolean;
 }
 
-export interface IProduct
-{
-    Name: string;
-    Category:string;
-    Brand:string;
-    Details:string;
-    Price:number;
-    Image:any;
-    Sizes:string[];
 
-}
