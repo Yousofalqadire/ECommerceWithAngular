@@ -5,11 +5,15 @@ import { IUser } from 'Models/user';
 import { ToastrService } from 'ngx-toastr';
 import { ScriptService } from 'services/script.service';
 import { ShoppingCartService } from 'services/shopping-cart.service';
+import { fade } from '../_animations/fadeAnimation';
 let user:IUser = JSON.parse(localStorage.getItem('user'));
 @Component({
   selector: 'app-shopping-cart',
   templateUrl: './shopping-cart.component.html',
-  styleUrls: ['./shopping-cart.component.css']
+  styleUrls: ['./shopping-cart.component.css'],
+  animations:[
+    fade
+  ]
 })
 export class ShoppingCartComponent implements OnInit  {
 

@@ -10,7 +10,7 @@ export interface Product
     details:  string;
     photo:    Photo;
     sizes:Array<Size>;
-    pupulerItems:boolean;
+    pupulerItems?:boolean;
 }
 
 

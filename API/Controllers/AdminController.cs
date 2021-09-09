@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using API.Data;
 using API.DTOs;
+using API.InterFaces;
 using API.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -18,14 +19,16 @@ namespace API.Controllers
         private readonly ApplicationDbContext db;
         private readonly RoleManager<IdentityRole> roleManager;
         private readonly UserManager<ApplicationUser> userManager;
-
+        private readonly IProductRepository _product;
         public AdminController(ApplicationDbContext _db,
                    RoleManager<IdentityRole> _roleManager,
-                   UserManager<ApplicationUser> _userManager)
+                   UserManager<ApplicationUser> _userManager,
+                   IProductRepository product)
         {
             db = _db;
             roleManager = _roleManager;
             userManager = _userManager;
+            _product = product;
         }
 
         [HttpPost("creat-role")]
@@ -63,6 +66,15 @@ namespace API.Controllers
         {
             var result = await userManager.Users.ToListAsync();
             return Ok(result);
+        }
+        [HttpPut("add-to-pubuler/{id}")]
+        public async Task<ActionResult<string>> AddToPubuler([FromRoute]int id)
+        {
+           var result = await _product.GetProductByIdAsync(id);
+           if(result == null) return BadRequest(); 
+           result.PupulerItems = true;
+           await db.SaveChangesAsync();
+            return Ok("product added to pupuler Items");
         }
 
     

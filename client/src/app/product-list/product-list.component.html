@@ -16,6 +16,7 @@
                     <th>price</th>
                     <th>update</th>
                     <th>delete</th>
+                    <th> remove/add  to pubuler items</th>
                 </tr>
             </thead>
             <tbody>
@@ -24,10 +25,16 @@
                     <td>{{product.id}}</td>
                     <td>{{product.name}}</td>
                     <td>{{product.category}}</td>
-                    <td><img [src]="product.photo.url" style="width:150px;height: 150px;" class="rounded"></td>
+                    <td><img [src]="product.photo.url" style="width:100px;height: 100px;" class="rounded"></td>
                     <td>{{product.price}}</td>
                     <td><a class="btn btn-link btn-success"><i class="fas fa-wrench"></i></a></td>
-                    <td><a  (click)="deleteItem(product.id)" class="btn btn-link btn-primary"><i class="fas fa-trash-alt"></i></a></td>
+                    <td><a  (click)="deleteItem(product.id)" class="btn btn-link btn-primary">
+                        <i class="fas fa-trash-alt"></i></a></td>
+                    <td> 
+                        <button title="remove" *ngIf="product.pupulerItems === true" class="btn btn-warning"><i class="fas fa-eraser"></i></button>
+                        <a title="Add" *ngIf="product.pupulerItems === false" class="btn  btn-success">
+                            <i  class="far fa-share-square"></i></a></td>
+                         
                 </tr>
             </tbody>
         </table>

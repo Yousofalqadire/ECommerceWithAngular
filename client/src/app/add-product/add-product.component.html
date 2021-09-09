@@ -90,7 +90,10 @@
             <div class="mb-3" *ngFor="let size of formSizes;let i = index">
               <input type="text" class="form-control" [formControlName]="i">
             </div>
-            <div *ngIf="f.Sizes.touched && f.Sizes.invalid"  class="alert alert-danger"></div>
+            <div *ngIf="f.Sizes.touched && f.Sizes.invalid"  class="alert alert-danger">
+              <div>you must add value</div>
+             
+            </div>
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>

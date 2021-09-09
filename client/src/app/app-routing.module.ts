@@ -25,7 +25,6 @@ const routes: Routes = [
     {path:'register',component:RegisterPageComponent},
     {path:'itemDetails/:id',component:ItemDetailsComponent},
     {path:'shoppingCart', component:ShoppingCartComponent,canActivate:[AuthGuard]},
-    {path:'Cart/:username', component:ShoppingCartComponent,canActivate:[AuthGuard]},
     {path:'shop', component:ShopComponent}
 
    ]

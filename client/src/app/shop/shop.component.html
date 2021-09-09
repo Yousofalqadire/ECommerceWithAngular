@@ -83,7 +83,7 @@
                             <div class="product-wrapper-grid">
                                 <div class="row margin-res">
                                     <div *ngFor="let item of  products | paginate :{ itemsPerPage:3,currentPage:page,totalItems:totalLingth }" class="col-lg-4 col-6 col-grid-box">
-                                        <div class="product-box">
+                                        <div @fade class="product-box">
                                             <div class="img-wrapper">
                                                 <div class="front">
                                                     <a href="#"><img [src]="item.photo.url" class="img-fluid blur-up lazyload bg-img" alt=""></a>

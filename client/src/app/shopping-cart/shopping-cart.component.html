@@ -41,7 +41,7 @@
                       </tr>
                   </thead>
                   <tbody *ngFor="let item of myItems">
-                      <tr>
+                      <tr @fade>
                           <td>
                               <a href="#"><img [src]="item.productPhoto" alt=""></a>
                           </td>
