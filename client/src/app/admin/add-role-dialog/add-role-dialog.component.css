@@ -1,0 +1,13 @@
+.mat-card{
+    width:100%;
+}
+.mat-card-header
+{
+    width: 100%;
+    background-color: coral;
+    color: white;
+}
+button{
+    background-color: coral;
+    color: white;
+}

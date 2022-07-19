@@ -1,0 +1,43 @@
+<div class="container">
+    <button mat-raised-button
+     style="background-color: coral;color:white" (click)="openAddRoleDialog()">
+        CREAT NEW ROLE
+        <mat-icon class="btn-icon">add
+        </mat-icon>
+    </button>
+    <div class="table-responsive-xs">
+        <table mat-table [dataSource]="dataSource" class="table table-hover">
+           <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef class="text-center"> ROLE ID</th>
+            <td mat-cell *matCellDef="let element" class="text-center">{{element.id|uppercase}}</td>
+           </ng-container>
+           <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef class="text-center"> ROLE NAME</th>
+            <td mat-cell *matCellDef="let element" class="text-center">{{element.name|uppercase}}</td>
+           </ng-container>
+           <ng-container matColumnDef="addUsers">
+               
+            <th mat-header-cell *matHeaderCellDef class="text-center"> ADD USERS </th>
+            <td mat-cell *matCellDef="let element" class="text-center">
+                <button mat-button [routerLink]="['/admin/add-users-toRole/',element.id]">
+                    <mat-icon class="btn-icon">add
+                    </mat-icon>
+                </button>
+        </td>
+           </ng-container>
+           <ng-container matColumnDef="delete">
+
+            <th mat-header-cell *matHeaderCellDef class="text-center"> DELETE </th>
+            <td mat-cell *matCellDef="let element" class="text-center">
+                <button mat-button (click)="removeRole(element.id)">
+                    <mat-icon class="btn-icon">delete_outline
+                    </mat-icon>
+                </button>
+        </td>
+           </ng-container>
+
+           <tr mat-header-row *matHeaderRowDef="displayColumns" class="text-center"></tr>
+           <tr mat-row *matRowDef="let row; columns: displayColumns;" class="text-center"></tr>
+        </table>
+    </div>
+</div>

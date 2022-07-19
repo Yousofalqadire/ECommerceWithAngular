@@ -1,0 +1,45 @@
+.horizonal-spacer {
+    flex: 1 1 auto;
+  }
+
+.mat-sidenav{
+    width:300px;
+   
+   
+    
+   }
+   .mat-sidenav-container{
+       height:100%;
+      
+   }
+   .mat-sidnav,.mat-sidnav-content{
+       padding:16px;
+   }
+
+   .sidnav-btn-header{
+       margin-top: 20px;
+       background-color: coral;
+       width: 80%;
+       padding: 8px;
+       color: white;
+       margin-left: 15px;
+   }
+   .sidnav-list-btn{
+    width: 80%;
+    padding: 8px;
+    margin-left: 17px;
+   }
+   .sidnav-list-btn:hover{
+       background-color: #b7b7a4;
+   }
+   /* .mat-toolBar section{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+   } */
+   .right-icons{
+       display: inline-flex;
+   }
+   .right-icons .mat-list-item{
+       display: table-cell;
+   }

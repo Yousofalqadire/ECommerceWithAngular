@@ -1,0 +1,8 @@
+table {
+    width: 100%;
+  }
+
+  td .mat-button:hover{
+    background-color: #ff0000;
+    color: white;
+  }

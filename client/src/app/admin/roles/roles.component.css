@@ -1,0 +1,7 @@
+table{
+    width:100%
+}
+td .mat-button:hover{
+    background-color: coral;
+    color: white;
+  }

@@ -1,0 +1,60 @@
+<div class="container">
+    <div class="container mb-4">
+     <button routerLink="/admin/add-product" mat-raised-button class="add-btn">ADD NEW PRODUCT
+         <mat-icon >add</mat-icon>
+     </button>
+    </div>
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+        <ng-container matColumnDef="productId">
+            <th mat-header-cell *matHeaderCellDef class="text-center">ID</th>
+            <td mat-cell *matCellDef="let element">{{element.id}}</td>
+        </ng-container>
+        <ng-container matColumnDef="productName">
+            <th mat-header-cell *matHeaderCellDef class="text-center">NAME</th>
+            <td mat-cell *matCellDef="let element">{{element.name}}</td>
+        </ng-container>
+        <ng-container matColumnDef="productPhoto">
+            <th mat-header-cell *matHeaderCellDef class="text-center">PHOTO</th>
+            <td mat-cell *matCellDef="let element"><img [src]="element.photo.url" width="100px" height="100px"></td>
+        </ng-container>
+        <ng-container matColumnDef="productPric">
+            <th mat-header-cell *matHeaderCellDef class="text-center">PRICE</th>
+            <td mat-cell *matCellDef="let element">{{element.price}}</td>
+        </ng-container>
+        <ng-container matColumnDef="productCategory">
+            <th mat-header-cell *matHeaderCellDef class="text-center">CATEGORY</th>
+            <td mat-cell *matCellDef="let element">{{element.category}}</td>
+        </ng-container>
+        <ng-container matColumnDef="sizes">
+            <th mat-header-cell *matHeaderCellDef class="text-center">SIZES</th>
+            <td mat-cell *matCellDef="let element">
+                <ng-container >
+                    <mat-list>
+                        <mat-list-item *ngFor="let s of element.sizes">{{s.value}}</mat-list-item>
+                    </mat-list>
+                </ng-container>
+            </td>
+        </ng-container>
+        <ng-container matColumnDef="update">
+            <th mat-header-cell *matHeaderCellDef class="text-center">UPDATE </th>
+            <td mat-cell *matCellDef="let element" class="text-center"><button mat-button [routerLink]="['/admin/update-item/',element.id]">
+              <mat-icon class="btn-icon">update
+              </mat-icon></button>
+            </td>
+           </ng-container>
+           <ng-container matColumnDef="delete">
+            <th mat-header-cell *matHeaderCellDef class="text-center">DELETE </th>
+            <td mat-cell *matCellDef="let element" class="text-center">
+                <button mat-button (click)="deleteItem(element.id)">
+              <mat-icon class="btn-icon">delete_outline
+              </mat-icon>
+            </button>
+            </td>
+           </ng-container>
+
+           <tr mat-header-row *matHeaderRowDef="displayColumns" class="text-center"></tr>
+           <tr mat-row *matRowDef="let row; columns: displayColumns;" class="text-center"></tr>
+    </table>
+    <mat-paginator [pageSizeOptions]="[5,10,20]" showFirstLastButtons ></mat-paginator>
+
+</div>

@@ -1,0 +1,22 @@
+.mat-sidenav-container{
+    height:100%;
+    background-color: rgb(248, 249, 250);
+
+
+}
+.mat-sidenav-content,mat-sidenav{
+    padding:20px;
+    
+    
+}
+
+.mat-sidenav{
+    background-color:rgb(252, 251, 253);
+    width: 200px;
+    
+   
+}
+.example-icon{
+    color:coral;
+}
+

@@ -1,0 +1,63 @@
+<div class="container-flued">
+    <div class="container text-center">
+       <h6  class="mat-display-2 mt-4">المتجر</h6>
+    </div>
+   
+    <div class="row text-center" >
+        <div  *ngFor="let item of products|paginate:{itemsPerPage:8,currentPage:page,totalItems:totalLingth}"
+        class="col-md-4 item"
+        [routerLink]="['/home/item-details/',item.id]"
+        >
+           
+        <mat-card fxFill>
+          <mat-card-header >
+            <span>
+                <mat-card-title  > {{item.brand}}</mat-card-title>
+                <mat-card-subtitle>{{item.name}}</mat-card-subtitle>
+               </span>
+               <span class="spacer"></span>
+              <span>
+                <mat-card-title class="price"> ${{item.price}} JD</mat-card-title>
+
+            </span>                
+           
+          </mat-card-header>
+          <mat-card-content>
+            <img [src]="item.photo.url" width="200px" height="200px" class="mb-2">
+            
+            <div class="button-row">
+                <button mat-button disabled >
+                    <mat-icon>grade</mat-icon>
+                    <mat-icon>grade</mat-icon>
+                    <mat-icon>grade</mat-icon>
+                    <mat-icon>grade</mat-icon>
+                    <mat-icon>grade</mat-icon>
+                </button>
+               
+            </div>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button color="warn">معاينة</button>
+            <button [routerLink]="['/home/item-details/',item.id]" mat-raised-button >
+                <mat-icon>shopping_cart</mat-icon>
+                    اضافة الى السلة                  
+            </button>
+          </mat-card-actions>
+          
+        </mat-card> 
+            
+        </div>
+        
+    </div>
+    <div class="container mt-4">
+      <nav aria-label="Page navigation">
+        <pagination-controls class="my-pagination  text-center"
+         (pageChange)="page=$event"
+        previousLabel="Previous"
+         nextLabel="Next">
+
+        </pagination-controls>
+       
+    </nav>
+    </div>
+</div>

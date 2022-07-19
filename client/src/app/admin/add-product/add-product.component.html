@@ -1,0 +1,103 @@
+<div class="container text-center mt-4">
+   <h1 class="mat-display-3 mb-4"> ADD NEW PRODUCT </h1>
+   <form [formGroup]="addProductForm" (ngSubmit)="addProduct()">
+     <mat-form-field class="mb-3">
+         <mat-label> PRODUCT NAME</mat-label>
+         <input matInput type="text"
+          formControlName="name"
+         placeholder="product name">
+         <mat-error *ngIf="addProductForm.get('name').touched && addProductForm.get('name').hasError('requierd')">
+             <p  class="alert alert-danger">the product name required</p>
+         </mat-error>
+     </mat-form-field>
+     <mat-form-field class="mb-3">
+        <mat-label> CATEGORY </mat-label>
+        <input matInput  type="text"
+         formControlName="category"
+        placeholder="category name">
+        <mat-error *ngIf="addProductForm.get('category').touched && addProductForm.get('category').hasError('requierd')">
+            <p  class="alert alert-danger">the product category required </p>
+        </mat-error>
+        </mat-form-field>
+        <mat-form-field class="mb-3">
+            <mat-label> BRAND </mat-label>
+            <input matInput type="text"
+             formControlName="brand"
+            placeholder="brand name">
+            <mat-error *ngIf="addProductForm.get('brand').touched && addProductForm.get('brand').hasError('requierd')">
+                <p  class="alert alert-danger">the product brand required </p>
+            </mat-error>
+            </mat-form-field>
+            <mat-form-field class="mb-3">
+                <mat-label> PRICE </mat-label>
+                <input matInput type="text"
+                 formControlName="price"
+                placeholder="price name">
+                <mat-error *ngIf="addProductForm.get('price').touched && addProductForm.get('price').hasError('requierd')">
+                    <p  class="alert alert-danger">the product price required </p>
+                </mat-error>
+                </mat-form-field>
+                <mat-form-field class="mb-3">
+                    <mat-label> DETAILS </mat-label>
+                    <input matInput type="text"
+                     formControlName="details"
+                    placeholder="details ">
+                    <mat-error *ngIf="addProductForm.get('details').touched && addProductForm.get('details').hasError('requierd')">
+                        <p  class="alert alert-danger">the product details required </p>
+                    </mat-error>
+                    </mat-form-field>
+                   <div class="mb-3">
+                       <input type="file"
+                       formControlName="Photo"
+                       placeholder="choes file"
+                       class="form-control mat-form-field" 
+                       (change)="onFileChange($event)"                   
+                       >
+                       <span> 
+                           <button mat-icon-button matSuffix>
+                               <mat-icon>folder</mat-icon>
+                           </button>
+                       </span>
+                       
+                   </div>
+                  <br>
+                    
+                        <button type="button" class="mt-3 mb-3" (click)="onAddSizes()" mat-raised-button color="warn">ADD SIZE</button><br>
+                      <ng-container formArrayName="sizes">  
+                      <div *ngFor="let size of sizes;let i = index">
+                          <mat-form-field class="size">
+                              <mat-label>SIZE : {{i + 1}}</mat-label>
+                              <input matInput [formControlName]="i" type="text">
+                              <button type="button" mat-icon-button matSuffix (click)="removeSize(i)">
+                              <mat-icon>delete_outline</mat-icon>
+                              </button>
+                              <mat-error *ngIf="addProductForm.get('sizes').touched && addProductForm.invalid">
+                                  YOU MUST ADD SIZE VALUE
+                              </mat-error>
+                          </mat-form-field>
+                      </div>
+                      </ng-container>
+                       <button [disabled]="addProductForm.invalid" mat-raised-button type="submit" color="warn">save into shop </button>
+
+
+
+   </form>
+</div>
+
+
+<!-- <form [formGroup]="sizeForm">
+    <button mat-raised-button color='warn' (click)="onCreatSize()">ADD NEW SIZE </button>
+    <div formArrayName="_size" *ngFor="let s of sizeForm.get('_size')['controls'];let i = index">
+     <div [formGroupName]="i">
+       <mat-form-field>
+           <mat-label >SIZE</mat-label>
+           <input matInput formControlName="value">
+       </mat-form-field>
+       <mat-form-field>
+          <mat-label >QUANTITY</mat-label>
+          <input matInput formControlName="quantity">
+      </mat-form-field>
+     </div>
+    </div>
+    <button mat-raised-button  type="submit">save</button>
+</form> -->

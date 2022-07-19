@@ -1,0 +1,97 @@
+<div class="container">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://res.cloudinary.com/alsuweadi-wears/image/upload/v1646423286/c0ieehnis4hnqkfn5s83.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" *ngFor="let item of curosel">
+        <img [src]="item.photo.url" class="d-block w-100" alt="...">
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+  <!-- curosel end -->
+  <div class="container "> 
+  <div class="row content">
+      <div class="col-md-3 col-sm-12 service-contaner mb-3" >
+          <mat-card class="landing-service" fxFill>
+              <mat-card-header>
+                  <img src="../../assets/images/Cargo-business-shipping-by-Friendesign-Acongraphic-5.jpg">
+              </mat-card-header>
+              <mat-card-content>
+                <p>تتوفر خدمة التوصيل المجاني داخل محافظة جرش ام في باقي محافضات المملكة فان اسعار الشحن تخضع لتسعيرة شركة ارامكس  </p>
+              </mat-card-content>
+          </mat-card>
+      </div>
+      <div class="col-md-3 col-sm-12  service-contaner mb-3" >
+        <mat-card class="landing-service" fxFill>
+            <mat-card-header> 
+                <img src="../../assets/images/service.jpg">
+            </mat-card-header>
+            <mat-card-content>
+               <p>
+                   نقوم بتقديم خدماتنا 24 ساعة وطيلة ايام الأسبوع 
+               </p> 
+            </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="col-md-3 col-sm-12  service-contaner  mb-3" >
+        <mat-card class="landing-service" fxFill>
+            <mat-card-header>
+                <mat-icon>loop</mat-icon>
+            </mat-card-header>
+            <mat-card-content style="margin-top: 100px;">
+                <p>امكانية استبدال المشتريات خلال ثلاثة ايام ضمن الشروط التي يضعها المتجر</p>
+            </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="col-md-3 col-sm-12  service-contaner mb-3" >
+        <mat-card class="landing-service" fxFill>
+            <mat-card-header> 
+                <img src="../../assets/images/payment.jpg">
+            </mat-card-header>
+            <mat-card-content>
+                <div class="dummy"></div>
+                <p style="margin-top: 20px;"> 
+                    الدفع عند التوصيل 
+                </p>
+            </mat-card-content>
+        </mat-card>
+      </div>
+  </div>
+
+  </div>
+  <div class="container text-center mt-4 mb-4 ">
+    <h2 class="mat-display-2"> اشهر المنتجات</h2>
+    <carousel
+    [objectFit]="'cover'"
+				[cellWidth]="'100%'"
+				[height]="300"
+				[autoplay]="true"
+				[dots]="true"
+				[loop]="true"
+        [cellsToScroll]="3"
+        [cellsToShow] ="3"
+        >
+       
+
+    
+      
+      <div  [routerLink]="['/home/item-details/',item.id]" *ngFor="let item of products"
+       class="carousel-cell">
+        <img [src]="item.photo.url">
+        <div class="carousel-caption d-none d-md-block text-center">
+          <p> {{item.category}}</p>
+          <button mat-raised-button color="warn">معاينة </button>
+        </div>
+
+      </div>
+				
+    </carousel>
+  </div>
+
+  <div class="container text-center mt-4 mb-4"> 
+
+  </div>

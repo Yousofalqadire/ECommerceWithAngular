@@ -1,0 +1,11 @@
+.bg-coral{
+    background-color: coral;
+    color: white;
+}
+.add-btn{
+    background-color: coral;
+    transition:all 1s ease-in-out
+  }
+  .add-btn:hover{
+     transform: scale(0.9); 
+  }

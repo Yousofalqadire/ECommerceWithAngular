@@ -1,0 +1,31 @@
+.page-header{
+    background-color: coral;
+    height: 100px;
+    width:100%;
+    align-items: center;
+    opacity: .9;
+
+    
+}
+.page-header .col-md-3 {
+    top: 50%px;
+    
+
+}
+.page-header .col-md-3 h3{
+    
+    margin-top: 40px;
+    color:white
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-form-field{
+      width: 100%;
+  }
+
+  .form{
+      
+      padding:10px
+  }

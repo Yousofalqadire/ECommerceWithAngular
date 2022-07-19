@@ -1,0 +1,94 @@
+<div class="container text-center mt-4">
+    <h1 class="mat-display-3 mb-4"> UPDATE PRODUCT PAGE  </h1>
+    
+    <form [formGroup]="updateProductForm" (ngSubmit)="updateProduct()" class="form">
+        <mat-form-field class="mb-3">
+            <mat-label> PRODUCT NAME</mat-label>
+            <input matInput type="text" readonly
+             formControlName="id"
+            placeholder="product name">
+            <mat-error *ngIf="updateProductForm.get('id').touched && updateProductForm.get('id').hasError('requierd')">
+                <p  class="alert alert-danger">the product name required</p>
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field class="mb-3">
+            <mat-label> PRODUCT NAME</mat-label>
+            <input matInput type="text"
+             formControlName="name"
+            placeholder="product name">
+            <mat-error *ngIf="updateProductForm.get('name').touched && updateProductForm.get('name').hasError('requierd')">
+                <p  class="alert alert-danger">the product name required</p>
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field class="mb-3">
+            <mat-label> PRODUCT CATEGORY</mat-label>
+            <input matInput type="text"
+             formControlName="category"
+            placeholder="product category">
+            <mat-error *ngIf="updateProductForm.get('category').touched && updateProductForm.get('category').hasError('requierd')">
+                <p  class="alert alert-danger">the product name required</p>
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field class="mb-3">
+            <mat-label> PRODUCT BRAND</mat-label>
+            <input matInput type="text"
+             formControlName="brand"
+            placeholder="product brand">
+            <mat-error *ngIf="updateProductForm.get('brand').touched && updateProductForm.get('brand').hasError('requierd')">
+                <p  class="alert alert-danger">the product name required</p>
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field class="mb-3">
+            <mat-label> PRODUCT PRICE</mat-label>
+            <input matInput type="text"
+             formControlName="price"
+            placeholder="product price">
+            <mat-error *ngIf="updateProductForm.get('price').touched && updateProductForm.get('price').hasError('requierd')">
+                <p  class="alert alert-danger">the product name required</p>
+            </mat-error>
+        </mat-form-field>
+        
+        <mat-form-field class="mb-3">
+            <mat-label> PRODUCT DETAILS</mat-label>
+            <input matInput type="text"
+             formControlName="details"
+            placeholder="product details">
+            <mat-error *ngIf="updateProductForm.get('details').touched && updateProductForm.get('details').hasError('requierd')">
+                <p  class="alert alert-danger">the product name required</p>
+            </mat-error>
+        </mat-form-field>
+        <div class="mb-3">
+            <input type="file"
+            formControlName="Photo"
+            placeholder="choes file"
+            class="form-control mat-form-field" 
+            (change)="onFileChange($event)"                   
+            >
+            <span> 
+                <button mat-icon-button matSuffix>
+                    <mat-icon>folder</mat-icon>
+                </button>
+            </span>
+            
+        </div>
+       <br>
+       <button type="button" class="mt-3 mb-3" (click)="onAddSize()" mat-raised-button color="warn">ADD SIZE</button><br>
+       <ng-container formArrayName="sizes">  
+        <div *ngFor="let size of sizes;let i = index">
+            <mat-form-field class="size">
+                <mat-label>SIZE : {{i + 1}}</mat-label>
+                <input matInput [formControlName]="i" type="text">
+                <button type="button" mat-icon-button matSuffix (click)="removeSize(i)">
+                <mat-icon>delete_outline</mat-icon>
+                </button>
+                <mat-error *ngIf="updateProductForm.get('sizes').touched && updateProductForm.invalid">
+                    YOU MUST ADD SIZE VALUE
+                </mat-error>
+            </mat-form-field>
+        </div>
+        </ng-container>
+        <button [disabled]="updateProductForm.invalid" mat-raised-button type="submit" color="warn">save into shop </button>
+
+    </form>
+
+</div>

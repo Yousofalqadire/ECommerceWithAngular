@@ -1,0 +1,95 @@
+<mat-sidenav-container >
+    <mat-sidenav mode="over" #sidenav class="text-center" position="end">
+        <button class="mb-3 mt-2" mat-icon-button class="example-icon"
+        aria-label="Example icon-button with menu icon"
+        (click)="sidenav.close()"
+        >
+         <mat-icon>close</mat-icon>
+       </button>
+       <p class="mt-3 mat-display-1 ctegory">CATEGORY</p>
+        <mat-list>
+          <mat-list-item class="nav-list-item " *ngFor="let item of categorys">
+            <button [routerLink]="['/home/category-products/',item]" mat-raised-button>{{item}}</button>
+          </mat-list-item>
+        </mat-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <mat-toolbar  class="mat-elevation-z8">
+          <mat-toolbar-row class="text-center" fxLayout="row"> 
+          <h1 class="page-title"> ALSUWEADI   WEARS</h1>
+          <span class="horizonal-spacer"></span>
+
+          <button mat-icon-button class="example-icon"
+          aria-label="Example icon-button with menu icon"
+          (click)="sidenav.open()"
+          >
+           <mat-icon>menu</mat-icon>
+         </button>
+          </mat-toolbar-row>
+        
+          <mat-toolbar-row fxLayout="row" class="text-center">
+            <button class="text-center" mat-icon-button routerLink='/home/landing-page' fxHide.xs><mat-icon>home</mat-icon></button>
+              <button class="text-center" mat-menu-item  color="warn" fxHide.xs> <a href="#" routerLink="/home/shop"> المتجر</a></button>
+              <button class="text-center" mat-menu-item color="warn" routerLink="/home/about-us" fxHide.xs>من نحن</button>
+              <button class="text-center" mat-menu-item color="warn"  routerLink="/home/services" fxHide.xs >الخدمات</button>
+              <button class="text-center" mat-menu-item color="warn"  routerLink="/home/call-us" fxHide.xs>اتصل بنا</button>             
+            <button class="text-center" mat-button [matMenuTriggerFor]="dropMenu" fxHide fxShow.xs>
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #dropMenu ="matMenu">
+             <ng-container class="text-center hideMenu">
+              <button class="text-center" mat-icon-button routerLink='/home/landing-page'><mat-icon>home</mat-icon></button>
+              <button class="text-center" mat-menu-item  color="warn"> <a href="#" routerLink="/home/shop"> <h5>المتجر</h5></a></button>
+              <button class="text-center" mat-menu-item color="warn"  routerLink="/home/about-us">من نحن</button>
+              <button class="text-center" mat-menu-item color="warn" routerLink="/home/services" >الخدمات</button>
+              <button class="text-center" mat-menu-item color="warn" routerLink="/home/call-us" >اتصل بنا</button>
+              
+              
+             </ng-container>
+            </mat-menu>
+          </mat-toolbar-row>
+          <mat-toolbar-row fxLayout="row flex-layout">
+            <span class="horizonal-spacer"></span>
+
+            <span *ngIf="(accountService.currentUser$ |async) == null">  
+              <button mat-button  routerLink="/home/register" >
+                تسجيل
+                </button>
+                <button mat-button   (click)="openLoginDialog()">
+                  دخول
+                  </button>
+            </span>
+              <span   *ngIf="(accountService.currentUser$ |async)" [matMenuTriggerFor]="menu"> 
+                <button mat-menu-item>
+                  {{currintMember.userName}}
+                 </button>
+                 <mat-menu #menu="matMenu"  >
+                  <div class="text-center">
+                    <button mat-menu-item  (click)="logout()">
+                      <mat-icon>logout</mat-icon>
+                      خروج</button>
+                  <button mat-menu-item>
+                    <mat-icon>settings</mat-icon>
+                    ادراة الحساب </button>
+                  <button mat-menu-item [routerLink]="['/home/shopping-cart/',currintMember.userName]">
+                  <mat-icon>shopping_cart</mat-icon> 
+                    سلة المشتريات 
+                  </button>
+
+                  <button mat-menu-item *appHasRoles='["Admin"]' routerLink="/admin" >
+                    <mat-icon>settings</mat-icon>
+                     admin </button>
+                  </div>
+                </mat-menu>
+              </span>
+          </mat-toolbar-row>
+        </mat-toolbar>
+
+  
+<div class="container"> 
+  
+    <router-outlet></router-outlet>
+</div>
+<app-footer></app-footer>
+    </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,110 @@
+<mat-sidenav-container> 
+    <mat-sidenav mode="side" opened   #sidenav class="texst-center" >
+        <div class="container" style="margin-top: 10px;">
+            <img src="../../assets/images/a.png" width="50px" height="50px">
+            <span> ALSUWEADI WEARS</span>
+            <button mat-icon-button class="example-icon"
+            aria-label="Example icon-button with menu icon"
+            (click)="sidenav.close()"
+            >
+             <mat-icon>close</mat-icon>
+           </button>
+        </div>
+        <hr>
+      <button routerLink="/admin/home" mat-raised-button class="sidnav-btn-header mb-4" >
+     <mat-icon>dashboard</mat-icon> 
+     DASHBOARD     
+    </button>
+    
+     <mat-list>
+         <mat-list-item class="mb-3"> 
+            <button mat-raised-button class="sidnav-list-btn " routerLink="/admin/products">
+                <mat-icon>view_compact</mat-icon>
+                PRODUCTS SETTINGS
+            </button> 
+         </mat-list-item>
+         <mat-list-item class="mb-3">  
+            <button mat-raised-button class="sidnav-list-btn ">
+                <mat-icon style="margin-right:30px">notifications</mat-icon>
+                 NOTIFICATIONS
+            </button>
+         </mat-list-item>
+         <mat-list-item class="mb-3">  
+            <button mat-raised-button class="sidnav-list-btn " routerLink="/admin/app-users">
+                <mat-icon style="margin-right:45px">person</mat-icon>
+                 APP USERS
+            </button>
+         </mat-list-item>
+         <mat-list-item class="mb-3">  
+            <button mat-raised-button class="sidnav-list-btn ">
+                <mat-icon style="margin-right:45px">mail_outline</mat-icon>
+                 MASSEGES
+            </button>
+         </mat-list-item>
+         <mat-list-item class="mb-3">  
+            <button mat-raised-button [matMenuTriggerFor]="menu"  class="sidnav-list-btn ">
+                <mat-icon style="margin-right:45px">arrow_drop_down</mat-icon>
+                 APP SETTINGS
+
+            </button>
+            <mat-menu #menu="matMenu" >
+                <button mat-menu-item routerLink="/admin/roles">
+                    <mat-icon>supervisor_account</mat-icon>
+                    APP ROLES
+                </button>
+                <button mat-menu-item routerLink="/admin/curosel" >
+                    <mat-icon>home</mat-icon>
+                    HOMEPAGE CUROSEL
+                </button>
+            </mat-menu>
+         </mat-list-item>
+
+ </mat-list>
+    </mat-sidenav>
+    <mat-sidenav-content >
+        <mat-toolbar fxLayout="row">
+            <button mat-icon-button class="example-icon"
+          aria-label="Example icon-button with menu icon"
+          (click)="sidenav.open()"
+          >
+           <mat-icon>menu</mat-icon>
+         </button>
+         <span class="horizonal-spacer"></span>
+         <section fxFlex fxLayout="row" >
+            <mat-list role="list" class="right-icons">
+                <mat-list-item role="listitem">
+                    <form [formGroup]="searchForm" > 
+                        <mat-form-field> 
+                            <mat-label>SEARCH</mat-label>
+                            <input matInput type="text" formControlName="search">
+                            <button mat-icon-button matSuffix>
+                               <mat-icon>search</mat-icon>
+                            </button>
+                        </mat-form-field>
+                    </form>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                    <button mat-icon-button color="primary"
+                    routerLink="/admin/bills"
+                     aria-label="Example icon button with a menu icon"
+                     [matBadge]="length" matBadgePosition="before" matBadgeColor="accent"
+                     >
+                        <mat-icon>notifications</mat-icon>
+                        </button>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                    <button mat-icon-button aria-label="Example icon button with a menu icon">
+                        <mat-icon>person</mat-icon>
+                        </button>
+                </mat-list-item>
+              </mat-list>
+         </section>
+        </mat-toolbar>
+        <div class="container mt-4">
+            <router-outlet></router-outlet> 
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+

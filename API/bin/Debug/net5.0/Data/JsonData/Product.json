@@ -1,0 +1,96 @@
+[
+    {
+        "Id": 1,
+        "Name": "jeans",
+        "Category": "straight-jeans",
+        "Brand": "tello",
+        "Price": 25,
+        "Details": "made in turkey",
+        "Photo": {
+            "Id": 1,
+            "Url": "https://res.cloudinary.com/alsuweadi-wears/image/upload/v1627512781/kohlqvqcy5nfngts8wxp.jpg",
+            "PublicId": "kohlqvqcy5nfngts8wxp",
+            "ProductId": 1
+        },
+        "Sizes": [
+            {
+                "Id": 1,
+                "Value": "30",
+                "ProductId": 1
+            },
+            {
+                "Id": 2,
+                "Value": "31",
+                "ProductId": 1
+            },
+            {
+                "Id": 3,
+                "Value": "32",
+                "ProductId": 1
+            },
+            {
+                "Id": 4,
+                "Value": "33",
+                "ProductId": 1
+            },
+            {
+                "Id": 5,
+                "Value": "34",
+                "ProductId": 1
+            },
+            {
+                "Id": 6,
+                "Value": "36",
+                "ProductId": 1
+            }
+        ],
+        "PupulerItems": true
+    },
+    {
+        "Id": 2,
+        "Name": "jeans",
+        "Category": "straight-jeans",
+        "Brand": "tello",
+        "Price": 25,
+        "Details": "made in turkey",
+        "Photo": {
+            "Id": 2,
+            "Url": "https://res.cloudinary.com/alsuweadi-wears/image/upload/v1627512854/vodjk7gwwroosflkttnl.jpg",
+            "PublicId": "vodjk7gwwroosflkttnl",
+            "ProductId": 2
+        },
+        "Sizes": [
+            {
+                "Id": 7,
+                "Value": "30",
+                "ProductId": 2
+            },
+            {
+                "Id": 8,
+                "Value": "31",
+                "ProductId": 2
+            },
+            {
+                "Id": 9,
+                "Value": "32",
+                "ProductId": 2
+            },
+            {
+                "Id": 10,
+                "Value": "33",
+                "ProductId": 2
+            },
+            {
+                "Id": 11,
+                "Value": "34",
+                "ProductId": 2
+            },
+            {
+                "Id": 12,
+                "Value": "36",
+                "ProductId": 2
+            }
+        ],
+        "PupulerItems": true
+    }
+]

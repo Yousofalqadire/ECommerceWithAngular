@@ -1,0 +1,16 @@
+ .col-md-3{
+    height: 400px;
+    border-right: 2px solid coral;
+}
+ .mat-list-item{
+    transition: all 1s ease-in-out;
+}
+.mat-list-item button{
+    background-color: white;
+    width: 100%;
+}
+.mat-list-item button:hover{
+    transform: scale(0.9);
+    background-color: coral;
+    color: white;
+} 

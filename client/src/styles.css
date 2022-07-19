@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { 
+    height: 100%;
+}
+body { margin: 0; font-family: 'Cairo', sans-serif; }
+
+.custombutton{
+    background-color: #F8961E;
+    color: white;
+    padding: 8px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+

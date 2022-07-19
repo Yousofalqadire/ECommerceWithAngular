@@ -1,0 +1,15 @@
+.mat-form-field{
+    width: 50%;
+}
+
+.example-custom-date-class {
+    background: orange;
+    border-radius: 100%;
+  }
+
+ .spiner{
+     width:100%;
+     height: 100%;
+     position:absolute;
+     top:50%; left: 50%;
+ }

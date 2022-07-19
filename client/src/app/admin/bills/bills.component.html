@@ -1,0 +1,37 @@
+<div class="container table-responsive-lg">
+  <h6  class="text-center mat-display-3 "> ORDERS</h6>
+    <div class="table-responsive-lg">
+      <table mat-table [dataSource]="dataSource" class="table table-hover">
+        <ng-container matColumnDef="id">
+          <th mat-header-cell *matHeaderCellDef class="text-center">ID</th>
+          <td mat-cell *matCellDef="let element" >{{element.id}}</td>
+        </ng-container>
+        <ng-container matColumnDef="userName">
+            <th mat-header-cell *matHeaderCellDef class="text-center">MEMBER</th>
+            <td mat-cell *matCellDef="let element" >{{element.userName}}</td>
+          </ng-container>
+          <ng-container matColumnDef="date">
+            <th mat-header-cell *matHeaderCellDef class="text-center">DATE</th>
+            <td mat-cell *matCellDef="let element" >{{element.date|date}}</td>
+          </ng-container>
+          <ng-container matColumnDef="phone">
+            <th mat-header-cell *matHeaderCellDef class="text-center">MEMBER PHONE</th>
+            <td mat-cell *matCellDef="let element" >{{element.phone}}</td>
+          </ng-container>
+          <ng-container matColumnDef="address">
+            <th mat-header-cell *matHeaderCellDef class="text-center">MEMBER ADDRESS</th>
+            <td mat-cell *matCellDef="let element" >{{element.address}}</td>
+          </ng-container>
+          <ng-container matColumnDef="show">
+            <th mat-header-cell *matHeaderCellDef class="text-center">SHOW DETAILS</th>
+            <td mat-cell *matCellDef="let element" >
+                <button type="button" color="warn" mat-raised-button [routerLink]="['/admin/bill-details/',element.id]">
+                    <mat-icon>open_in_new</mat-icon></button></td>
+          </ng-container>
+          <tr mat-header-row *matHeaderRowDef="displayColumns" class="text-center"></tr>
+           <tr mat-row *matRowDef="let row; columns: displayColumns;" class="text-center"></tr>
+    </table>
+    <mat-paginator [pageSizeOptions]="[5,10,20]" showFirstLastButtons ></mat-paginator>
+
+    </div>
+</div>

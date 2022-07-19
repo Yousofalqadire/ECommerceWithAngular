@@ -1,0 +1,75 @@
+
+<div class="container text-center">
+ <div class="row">
+   <div class="col-md-6 col-sm-12  mb-2" >
+    <div matRipple class="example-ripple-container mat-elevation-z4 text-center "
+    [matRippleCentered]="centerd"fxFill
+    >
+    <div class="container title text-center">
+      <div class="container text-center">
+        <h1 class="mat-display-2 mt-3 ">SALES</h1>
+
+      </div>
+    </div>
+    <div class="container text-center">
+      <mat-form-field >
+        <mat-label>Select an year</mat-label>
+        <mat-select >
+          <mat-option *ngFor="let item of salesByYears" [value]="item">
+            <button  mat-button (click)="openDialog(item)">{{item}}</button>
+          </mat-option>
+         
+        </mat-select>
+      </mat-form-field>
+    </div>
+    
+       
+    </div>
+   </div>
+   <div class="col-md-6 col-sm-12  mb-2" >
+    <div matRipple class="example-ripple-container mat-elevation-z4 text-center "
+    [matRippleCentered]="centerd"fxFill
+    >
+    <div class="container title text-center">
+      <div class="container text-center">
+        <h1 class="mat-display-2 mt-3 ">ROLES</h1>
+
+      </div>
+    </div>
+    <div class="container text-center">
+     <button mat-flat-button routerLink="/admin/roles">GO TO APP ROLES</button>
+    </div>
+    
+       
+    </div>
+  </div>
+  <div class="col-md-6 col-sm-12  mb-3 " >
+    <div matRipple class="example-ripple-container mat-elevation-z4 text-center "
+    [matRippleCentered]="centerd"fxFill
+    >
+    <div class="container title text-center">
+      <div class="container text-center">
+        <h1 class="mat-display-2 mt-3 ">PRODUCT</h1>
+        
+      </div>
+    </div>
+    <div class="container text-center">
+      <button mat-flat-button routerLink="/admin/products">GO TO APP products</button>
+
+    </div>
+    
+       
+    </div>
+  </div>
+ </div>
+ 
+</div>
+
+<!-- 
+<div matRipple class="example-ripple-container mat-elevation-z4"
+*ngFor="let item of salesByYears"
+[matRippleCentered]="centerd"
+
+>
+<button  mat-button><h1 class="mat-display-3" (click)="openDialog(item)">{{item}}</h1></button>
+</div> -->

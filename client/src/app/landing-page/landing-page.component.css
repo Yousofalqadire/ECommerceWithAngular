@@ -1,0 +1,54 @@
+.carousel-item{
+    height: 500px;
+}
+
+.mat-card-header img{
+    width:150px;
+    height: 100px;
+}
+.mat-card-content p{
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+
+}
+.landing-service:hover{
+ border: 1px solid #080808;
+ color:white;
+ background-color: #ff8700;
+}
+
+.service-contaner .mat-card{
+    height: 200px;
+}
+.col .mat-card-content{
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+
+}
+.dummy{
+    height: 20px;
+}
+
+.landing-service .mat-icon{
+    font-size:80px;
+    color: #ff8700;
+    position:absolute;
+    left: 35%;
+    
+}
+
+.landing-service{
+    transition: all 1s ease-in-out;
+}
+
+@media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    .content{
+      margin-top: 5px;
+    }
+   
+  }
+  .mat-display-2{
+    font-family: 'Cairo', sans-serif;
+ 
+  }

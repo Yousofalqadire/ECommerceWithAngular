@@ -1,0 +1,57 @@
+<div class="container-flued text-center mt-4 " fxFill>
+    <mat-card> 
+        <mat-card-title> {{item.category}} </mat-card-title> 
+    <mat-card-content>  
+        <div class="row">
+            <div class="col-md-4">
+                <img [src]="item.photo.url" width="100%" height="300px"  class="img-fluid rounded">
+            </div>
+            <div class="col-md-4">
+                <section class="mt-2 mb-2">
+                   <mat-card-subtitle>القياسات المتوفرة</mat-card-subtitle>
+                   <mat-chip-list>
+                       <mat-chip *ngFor="let s of item.sizes">{{s.value}}</mat-chip>
+                   </mat-chip-list>
+                </section>
+                <mat-list role="list">
+                    <mat-list-item role="listitem">Brand : {{item.brand}}</mat-list-item>
+                    <mat-list-item role="listitem" class="mb-2"> category : {{item.name}}</mat-list-item>
+                    <mat-list-item role="listitem">
+                     <form [formGroup]="selectSizeForm" (ngSubmit)="addToCart()" class="mt-2"> 
+                      <mat-form-field>
+                          <mat-label>  اختر القياس </mat-label>
+                          <mat-select formControlName="selectedSize">  
+                           <mat-option *ngFor="let size  of item.sizes" [value]="size.value"> 
+                               {{size.value}}
+                           </mat-option>
+                          </mat-select>
+                      </mat-form-field>
+                      <div class="mt-2 mb-2">  
+                        <button  type="submit" [disabled]="selectSizeForm.invalid"  mat-raised-button color="warn">أضف الى السلة </button>
+                      </div>
+                     </form>
+                    </mat-list-item>
+                  </mat-list>
+            </div>
+            <div class="col-md-4 " > 
+              <div class="mt-5"> 
+                  <p class="mat-display-2" style="color:blue;"> {{item.price|currency}} JD</p>
+                  <p class="mt-3">
+                      {{item.details}}
+                  </p>
+              </div>
+            </div>
+          </div>
+    </mat-card-content>
+    <mat-card-footer> 
+        <mat-card-actions> 
+            <button mat-button routerLink="/home/shop">متابعة التسوق</button>
+            <button mat-button [routerLink]="['/home/shopping-cart/',currintMember.userName]">اتمام عملية الشراء </button>
+
+        </mat-card-actions> 
+       <div class="container spiner " *ngIf="loader.visibility|async" >
+        <mat-progress-spinner mode="indeterminate" color="warn">  </mat-progress-spinner>
+       </div>
+    </mat-card-footer>
+</mat-card>
+</div>

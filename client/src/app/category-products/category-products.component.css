@@ -1,0 +1,47 @@
+.ripple-container {
+    cursor: pointer;
+    text-align: center;
+  
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .mat-card-content img:hover{
+    background-color: black;
+    opacity: .5;
+    z-index: 99;
+  }
+  .item{
+    padding: 8px;
+  
+  }
+  .mat-card-subtitle,.price{
+    color:coral;
+  }
+  .button-row button .mat-icon{
+    color:#F8DB3A;
+   
+  }
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .spacer2{
+    width:50px
+  }
+
+  @media only screen and (min-width: 700px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 50%;
+    }
+  }

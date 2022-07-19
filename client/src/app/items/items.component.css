@@ -1,0 +1,44 @@
+
+
+  .mat-card-content img:hover{
+    background-color: black;
+    opacity: .5;
+    z-index: 99;
+  }
+  .item{
+    padding: 8px;
+  
+  }
+  .mat-card-subtitle,.price{
+    color:coral;
+  }
+  .button-row button .mat-icon{
+    color:#F8DB3A;
+   
+  }
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .spacer2{
+    width:50px
+  }
+  
+  
+.mat-display-2{
+  font-family: 'Cairo', sans-serif;
+
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 700px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 50%;
+  }
+}

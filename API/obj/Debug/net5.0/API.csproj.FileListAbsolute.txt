@@ -1,0 +1,324 @@
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\appsettings.Development.json
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\appsettings.json
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\API.exe
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\API.deps.json
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\API.runtimeconfig.json
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\API.runtimeconfig.dev.json
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\API.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\ref\API.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\API.pdb
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\API.csprojAssemblyReference.cache
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\API.GeneratedMSBuildEditorConfig.editorconfig
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\API.AssemblyInfoInputs.cache
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\API.AssemblyInfo.cs
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\API.csproj.CoreCompileInputs.cache
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cache
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.Manifest.cache
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.xml
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\scopedcss\bundle\API.styles.css
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\API.RazorTargetAssemblyInfo.cache
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\API.csproj.CopyComplete
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\API.dll
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\ref\API.dll
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\API.pdb
+F:\MarketPlaceAuth\API\obj\Debug\net5.0\API.genruntimeconfig.cache
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Humanizer.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\MarketPlaceAuth\API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+F:\MarketPlaceAuth\Api\bin\Debug\net5.0\CloudinaryDotNet.dll
+F:\MarketPlaceAuth\Api\bin\Debug\net5.0\AutoMapper.dll
+F:\MarketPlaceAuth\Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\MarketPlaceAuth\Api\bin\Debug\net5.0\Data\JsonData\Product.json
+F:\MarketPlaceAuth\Api\bin\Debug\net5.0\Data\JsonData\Register.json
+F:\MarketPlaceAuth\Api\bin\Debug\net5.0\SendGrid.dll
+F:\MarketPlaceAuth\Api\bin\Debug\net5.0\StarkbankEcdsa.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\appsettings.Development.json
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\appsettings.json
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Data\JsonData\Product.json
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Data\JsonData\Register.json
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.exe
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.deps.json
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.runtimeconfig.json
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.runtimeconfig.dev.json
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\ref\API.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.pdb
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\AutoMapper.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\CloudinaryDotNet.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Humanizer.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\SendGrid.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\StarkbankEcdsa.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.GeneratedMSBuildEditorConfig.editorconfig
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.AssemblyInfoInputs.cache
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.AssemblyInfo.cs
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.csproj.CoreCompileInputs.cache
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cache
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.Manifest.cache
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\scopedcss\bundle\API.styles.css
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.RazorTargetAssemblyInfo.cache
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.csproj.CopyComplete
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.dll
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\ref\API.dll
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.pdb
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.genruntimeconfig.cache
+E:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.Views.dll
+E:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\appsettings.Development.json
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\appsettings.json
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Data\JsonData\Product.json
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Data\JsonData\Register.json
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.exe
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.deps.json
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.runtimeconfig.json
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.runtimeconfig.dev.json
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\ref\API.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.pdb
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\API.Views.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\AutoMapper.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\CloudinaryDotNet.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Humanizer.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\SendGrid.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\StarkbankEcdsa.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.GeneratedMSBuildEditorConfig.editorconfig
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.AssemblyInfoInputs.cache
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.AssemblyInfo.cs
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.csproj.CoreCompileInputs.cache
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cache
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\scopedcss\bundle\API.styles.css
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.Manifest.cache
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.RazorTargetAssemblyInfo.cache
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.csproj.CopyComplete
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.dll
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\ref\API.dll
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.pdb
+D:\ECommerceWithAngular\Api\obj\Debug\net5.0\API.genruntimeconfig.cache
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Npgsql.dll
+D:\ECommerceWithAngular\Api\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\appsettings.json
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Data\JsonData\Product.json
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Data\JsonData\Register.json
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\API.exe
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\API.deps.json
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\API.runtimeconfig.json
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\API.runtimeconfig.dev.json
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\API.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\ref\API.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\API.pdb
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\API.Views.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\CloudinaryDotNet.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Npgsql.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\SendGrid.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\StarkbankEcdsa.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\API.AssemblyInfoInputs.cache
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\API.AssemblyInfo.cs
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\API.csproj.CoreCompileInputs.cache
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\scopedcss\bundle\API.styles.css
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.Manifest.cache
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\API.RazorTargetAssemblyInfo.cache
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\API.csproj.CopyComplete
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\API.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\ref\API.dll
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\API.pdb
+C:\Users\Discovery PC\Desktop\alsuweadiEcommerce\ECommerceWithAngular-version2\Api\obj\Debug\net5.0\API.genruntimeconfig.cache

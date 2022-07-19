@@ -1,0 +1,56 @@
+
+<div class="page-header text-center mb-4">
+  <div class="row">
+      <div class="col-md-3">
+        <h3>CHECK-OUT</h3>
+      </div>
+      <div class="col-md-6"></div>
+      <div class="col-md-3">
+          <h3>HOME/BILL</h3>
+      </div>
+  </div>
+</div>
+
+<div class="row ">
+    
+    <div class="col-md-6 form">
+        <div class="container text-center mt-4">
+         <form [formGroup]="addToBilForm" (ngSubmit)="saveBill()">  
+          <mat-form-field class="mb-3"> 
+              <mat-label>رقم الهاتف</mat-label>
+              <input matInput type="text" formControlName="phone" placeholder="07" >
+              <mat-icon matSuffix color="warn"> local_phone</mat-icon>
+              <mat-error *ngIf="addToBilForm.get('phone').touched && addToBilForm.get('phone').hasError('required')">
+                  <p>يجب ادخال رقم الهاتف</p>
+              </mat-error>
+          </mat-form-field>
+          <br>
+          <mat-form-field class="mb-2">
+            <mat-label>المدينة / المحافظة</mat-label>
+            <mat-select  formControlName="city">
+                <mat-option *ngFor="let c of city" [value]="c.name">{{c.name}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field class="mb-3"> 
+            <mat-label> اسم الشارع</mat-label>
+            <input matInput type="text" formControlName="street"  >         
+            <mat-error *ngIf="addToBilForm.get('street').touched && addToBilForm.get('street').hasError('required')">
+                <p>يجب ادخال اسم الشارع</p>
+            </mat-error>
+        </mat-form-field>
+        <br>
+        <mat-form-field class="mb-3 " > 
+            <mat-label> رقم البناية</mat-label>
+            <input matInput type="text" formControlName="buildNo">          
+        </mat-form-field>
+
+        <button [disabled]="addToBilForm.invalid" type="submit" mat-raised-button color="warn">اتمام عملية الشراء</button>
+         </form>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="container text-center">
+
+        </div>
+    </div>
+</div>

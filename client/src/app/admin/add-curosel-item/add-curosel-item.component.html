@@ -1,0 +1,34 @@
+<div class="container text-center">
+    <h1 class="text-center mat-display-2">ADD NEW CUROSEL</h1>
+    <hr>
+<div class="container">
+    <form [formGroup]="addCurosel" (ngSubmit)="addNewCurosel()">
+     <mat-form-field class="mb-3">
+         <mat-label>CAPAITION TEXT</mat-label>
+         <input matInput 
+         formControlName="capaitionText"
+         placeholder="capaition text"
+         >
+         <mat-error *ngIf="addCurosel.get('capaitionText').touched && addCurosel.get('capaitionText').hasError('requierd')">
+            <p  class="alert alert-danger">the capaition text required</p>
+        </mat-error>
+     </mat-form-field>
+     <div class="mb-3 container text-center">            
+        <input  
+        type="file"
+        class="form-control mat-form-field"
+        formControlName="photo"
+        placeholder="uoload image"
+        (change)="onFileChange($event)"
+        >
+       
+        <mat-error *ngIf="addCurosel.get('photo').touched && addCurosel.get('photo').hasError('requierd')">
+           <p  class="alert alert-danger">the capaition text required</p>
+       </mat-error>
+    </div>
+    <div class="container text-center mt-3">
+      <button mat-raised-button type="submit" class="submit" [disabled]="addCurosel.invalid">ADD CUROSEL </button>
+    </div>
+    </form>
+</div>
+</div>
