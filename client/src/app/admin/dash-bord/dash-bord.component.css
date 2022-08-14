@@ -5,11 +5,12 @@
 .mat-sidenav{
     width:300px;
    
-   
+    background-color: rgb(27, 27, 27);
     
    }
    .mat-sidenav-container{
        height:100%;
+      
       
    }
    .mat-sidnav,.mat-sidnav-content{
@@ -28,6 +29,7 @@
     width: 80%;
     padding: 8px;
     margin-left: 17px;
+    color: white;
    }
    .sidnav-list-btn:hover{
        background-color: #b7b7a4;
@@ -42,4 +44,7 @@
    }
    .right-icons .mat-list-item{
        display: table-cell;
+   }
+   .example-icon{
+    color: white;
    }

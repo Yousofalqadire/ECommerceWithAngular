@@ -2,7 +2,7 @@
     <mat-sidenav mode="side" opened   #sidenav class="texst-center" >
         <div class="container" style="margin-top: 10px;">
             <img src="../../assets/images/a.png" width="50px" height="50px">
-            <span> ALSUWEADI WEARS</span>
+            <span style="color: white;"> ALSUWEADI WEARS</span>
             <button mat-icon-button class="example-icon"
             aria-label="Example icon-button with menu icon"
             (click)="sidenav.close()"
@@ -18,31 +18,31 @@
     
      <mat-list>
          <mat-list-item class="mb-3"> 
-            <button mat-raised-button class="sidnav-list-btn " routerLink="/admin/products">
+            <button mat-button class="sidnav-list-btn " routerLink="/admin/products">
                 <mat-icon>view_compact</mat-icon>
                 PRODUCTS SETTINGS
             </button> 
          </mat-list-item>
          <mat-list-item class="mb-3">  
-            <button mat-raised-button class="sidnav-list-btn ">
+            <button mat-button class="sidnav-list-btn ">
                 <mat-icon style="margin-right:30px">notifications</mat-icon>
                  NOTIFICATIONS
             </button>
          </mat-list-item>
          <mat-list-item class="mb-3">  
-            <button mat-raised-button class="sidnav-list-btn " routerLink="/admin/app-users">
+            <button mat-button class="sidnav-list-btn " routerLink="/admin/app-users">
                 <mat-icon style="margin-right:45px">person</mat-icon>
                  APP USERS
             </button>
          </mat-list-item>
          <mat-list-item class="mb-3">  
-            <button mat-raised-button class="sidnav-list-btn ">
+            <button mat-button class="sidnav-list-btn ">
                 <mat-icon style="margin-right:45px">mail_outline</mat-icon>
                  MASSEGES
             </button>
          </mat-list-item>
          <mat-list-item class="mb-3">  
-            <button mat-raised-button [matMenuTriggerFor]="menu"  class="sidnav-list-btn ">
+            <button mat-button [matMenuTriggerFor]="menu"  class="sidnav-list-btn ">
                 <mat-icon style="margin-right:45px">arrow_drop_down</mat-icon>
                  APP SETTINGS
 
@@ -63,7 +63,7 @@
     </mat-sidenav>
     <mat-sidenav-content >
         <mat-toolbar fxLayout="row">
-            <button mat-icon-button class="example-icon"
+            <button mat-icon-button class="menu"
           aria-label="Example icon-button with menu icon"
           (click)="sidenav.open()"
           >
