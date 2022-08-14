@@ -18,6 +18,7 @@ using Microsoft.Extensions.Options;
 using API.Helpers;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
@@ -186,7 +187,9 @@ namespace API.Controllers
             Massege = "please go back to home page and login with new password"});
         }
        
+       
     }
+
 }
 
 // var link = "<a href='http://localhost:4200/home/updatePassword/"+user.Email+"'>"+

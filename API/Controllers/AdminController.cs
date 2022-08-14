@@ -138,6 +138,19 @@ namespace API.Controllers
          }
          return Ok();
      }
+   
+        [HttpDelete("delete-user")]
+        public async Task<ActionResult<bool>> deleteUserAsync([FromQuery]string id){
+
+            var user = await userManager.FindByEmailAsync(id);
+            if(user == null){
+              return BadRequest("user not found");
+        
+            }
+            var result = await userManager.DeleteAsync(user);
+            if(!result.Succeeded) return Unauthorized("you cant delete users");
+            return Ok(true);
+        }
 
     }
 }

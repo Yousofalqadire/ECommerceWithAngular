@@ -234,4 +234,13 @@ removeRole(roleId:string):Observable<RemoveRoleResponce>
     
     return this.http.post<any>(this.baseUrl +'Curosel/creat-curosel',model,headers);
   }
+
+  deleteUser(email:string):Observable<any>{
+    let user :User = JSON.parse(localStorage.getItem('user'))
+    let httpHeaders = new HttpHeaders({
+      'Authorization':'Bearer '+ user.token
+    })
+    let headers ={headers:httpHeaders};
+    return this.http.delete<any>(this.baseUrl + "Admin/delete-user/?id="+email,headers)
+  }
 }

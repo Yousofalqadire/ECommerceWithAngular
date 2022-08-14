@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Discovery PC\\Desktop\\alsuweadiEcommerce\\ECommerceWithAngular-version2\\Api\\API.csproj": {}
+    "C:\\Users\\Discovery PC\\Desktop\\alsuweadiEcommerce\\ECommerceWithAngular-version2\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Discovery PC\\Desktop\\alsuweadiEcommerce\\ECommerceWithAngular-version2\\Api\\API.csproj": {
+    "C:\\Users\\Discovery PC\\Desktop\\alsuweadiEcommerce\\ECommerceWithAngular-version2\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Discovery PC\\Desktop\\alsuweadiEcommerce\\ECommerceWithAngular-version2\\Api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Discovery PC\\Desktop\\alsuweadiEcommerce\\ECommerceWithAngular-version2\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Discovery PC\\Desktop\\alsuweadiEcommerce\\ECommerceWithAngular-version2\\Api\\API.csproj",
+        "projectPath": "C:\\Users\\Discovery PC\\Desktop\\alsuweadiEcommerce\\ECommerceWithAngular-version2\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Discovery PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Discovery PC\\Desktop\\alsuweadiEcommerce\\ECommerceWithAngular-version2\\Api\\obj\\",
+        "outputPath": "C:\\Users\\Discovery PC\\Desktop\\alsuweadiEcommerce\\ECommerceWithAngular-version2\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Discovery PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -121,7 +121,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TGHGrhf28ZfWQ91etwe0jxBREtcER9KsVLxzOeN6uk8jZ7V5csUsffCBsIbXVDMMNgEtgR9+//ijDjmpezBLcw==",
+  "dgSpecHash": "H5NwKB46MMhArnFIo7+od5xN7tfbfylcX8uWI3wid0WOVbWojNBmKvn3t/7k6Ms9NsOj3CRhpZD+e0L0S/IwFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Discovery PC\\Desktop\\alsuweadiEcommerce\\ECommerceWithAngular-version2\\Api\\API.csproj",
+  "projectFilePath": "C:\\Users\\Discovery PC\\Desktop\\alsuweadiEcommerce\\ECommerceWithAngular-version2\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Discovery PC\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Discovery PC\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

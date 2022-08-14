@@ -41,7 +41,7 @@ selectSizeForm = this.fb.group({
   ngOnInit(): void {
      this.router.paramMap.subscribe(res=>{
        this.itemId = res.get('id');
-       this.productService.getProductById(this.itemId).subscribe(res=>{
+       this.productService.getProductAndroid(this.itemId).subscribe(res=>{
          this.item= res;
        })  
      })

@@ -6,7 +6,11 @@ import {MatPaginator} from '@angular/material/paginator'
 import { Pagination } from 'src/_models/pagination';
 import { PageChangedEvent } from 'ngx-bootstrap/pagination';
 import { PresenceService } from '_services/presence.service';
-
+import {
+  MatSnackBar,
+  MatSnackBarHorizontalPosition,
+  MatSnackBarVerticalPosition,
+} from '@angular/material/snack-bar';
 @Component({
   selector: 'app-users',
   templateUrl: './users.component.html',
@@ -18,8 +22,11 @@ pagination:Pagination;
 pageNumber:number=1;
 pageSize:number=5 ;
 dataSource;
-displayColumns:string[] =['firstName','lastName','userId','email','userName','birthDay','city','status']
-  constructor(private adminService:AdminService,public presenceService:PresenceService) { }
+displayColumns:string[] =['firstName','lastName','userId','email','userName','birthDay','city','status','delete']
+  constructor(private adminService:AdminService,public presenceService:PresenceService,
+    private matSnackBar:MatSnackBar ) { }
+    horizintalSnakBarPosition:MatSnackBarHorizontalPosition ="center";
+    verticalSnakBarPosition:MatSnackBarVerticalPosition = 'bottom';
 
   ngOnInit(): void {
     this.loadMembers();
@@ -45,5 +52,15 @@ displayColumns:string[] =['firstName','lastName','userId','email','userName','bi
   {
     this.pageNumber = event.page;
     this.loadMembers();
+  }
+  deleteUser(email:string){
+    console.log(email)
+    this.adminService.deleteUser(email).subscribe(res =>{
+       this.matSnackBar.open(`${res}`,"X",{
+        horizontalPosition:this.horizintalSnakBarPosition,
+        verticalPosition:this.verticalSnakBarPosition
+       })
+      this.loadMembers();
+    })
   }
 }
